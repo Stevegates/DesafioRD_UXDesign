@@ -1,0 +1,48 @@
+@font-face {
+    font-family:'Myriad Pro';
+    src: local('MyriadPro'), local(Myriad Pro),
+        url('fonts/MyriadPro.eot'),/* IE9 */
+        url('fonts/MyriadPro.woff') format('woff'),
+		url('fonts/MyriadPro.otf') format('opentype'),
+		url('fonts/MyriadPro.svg#MyriadPro') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FB04;
+}
+
+@font-face {
+    font-family:'Open Sans Bold ';
+    src: local('OpenSans-Bold'), local(Open Sans Bold),
+		url('fonts/Open Sans Bold.woff') format('woff'),
+		url('fonts/Open Sans Bold.otf') format('opentype'),
+		url('fonts/Open Sans Bold.svg#Open Sans Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FFFD;
+}
+
+@font-face {
+    font-family:'Open Sans';
+    src: local('OpenSans'), local(Open Sans),
+		url('fonts/Open Sans.woff') format('woff'),
+		url('fonts/Open Sans.otf') format('opentype'),
+		url('fonts/Open Sans.svg#Open Sans') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FFFD;
+}
+
+@font-face {
+    font-family:'Open Sans Light';
+    src: local('OpenSans-Light'), local(Open Sans Light),
+		url('fonts/Open Sans Light.woff') format('woff'),
+		url('fonts/Open Sans Light.otf') format('opentype'),
+		url('fonts/Open Sans Light.svg#Open Sans Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FFFD;
+}

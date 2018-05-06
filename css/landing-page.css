@@ -1,0 +1,267 @@
+#conversion img {
+    display: none;
+}
+
+/* Small only */
+
+@media screen and (max-width: 39.9375em) {
+    #banner-image img {
+        max-height: 220px;
+    }
+    #conversion img {
+        display: none;
+    }
+    #content {
+        margin-top: 25px;
+    }
+     #conversion header
+    {
+        padding: 30px;
+    }#contador {
+         margin-top: -10px;
+         text-align: left
+    }
+}
+
+/* Medium and up */
+
+@media screen and (min-width: 40em) {
+    #banner-image {
+        height: 290px;
+    }
+    #banner-image img {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: auto;
+    }
+    #conversion header
+    {
+        padding: 30px;
+    }
+    #headlines h3#lead {
+        font-size: 1em;
+    }
+     #conversion header #contador {
+         margin-top: -15px;
+         text-align: left
+    }
+    #conversion .ebook-form #receber {
+    height: 64px;
+    }
+}
+
+/* Medium only */
+
+@media screen and (min-width: 40em) and (max-width: 63.9em) {
+    #headlines h3#lead {
+        font-size: 0.85em;
+    }
+    #banner-image {
+        min-height: 236px;
+    }
+    #content {
+        margin-top: 25px;
+    }
+      #conversion img {
+        display: none;
+    }
+}
+
+/* Large and up */
+
+@media screen and (min-width: 64em) {
+    #banner-image {
+        max-height: 236px;
+    }
+    #banner-image img {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-height: 220px;
+    }
+    #headlines h3#lead {
+        font-size: 1em;
+    }
+    #content {
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+    #conversion {
+        position: relative;
+    }
+    #conversion header {
+            padding: 30px 30px 5px 30px;
+    }
+    #conversion header #contador {
+        font-size: 15px;
+        width: 70px;
+        position: absolute;
+        top: -3px;
+        right: -15px;
+        overflow: hidden;
+        text-align: center;
+        line-height: 1.1em;
+    }
+    #conversion header #downloads {
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    #conversion img {
+        display: block;
+        position: absolute;
+        top: -45px;
+        right: -25px;
+        overflow: hidden;
+    }
+    #social-proof{
+          padding: 50px;
+            margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 97em) {
+    
+    #headlines h3#subtitle {
+        font-size: 1.2em;
+    }
+    #conversion h2.title{
+        font-size: 1.35em;
+    }
+}
+
+
+#main-banner {
+    background-color: #3B5998;
+}
+
+#headlines {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #fff;
+    vertical-align: middle;
+}
+
+#headlines h1#title {
+    font-family: "Myriad Pro";
+    font-size: 2em;
+    line-height: 1.1em;
+    margin-top: 10px;
+}
+
+#headlines h3#lead {
+    font-family: "Open Sans Light";
+    width: 85%;
+}
+
+#headlines h3#bait {
+    font-family: "Open Sans Light";
+    font-size: 1.1em;
+    margin-bottom: 0;
+}
+
+#banner-image {
+    background: #7AA4D7;
+}
+
+#content {
+    background-color: #fff;
+}
+
+#content p {
+    font-size: 16px;
+    color: #424242;
+}
+
+#content h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#content ul {
+    list-style: none;
+    color: #323232;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+#content ul li {
+    list-style-image: none;
+    background: url('../images/bullet.png') no-repeat left top 6px;
+    margin-left: 0px;
+    padding-left: 35px;
+    vertical-align: middle;
+    line-height: 2em;
+}
+
+#conversion {
+    color: #fff;
+}
+
+#conversion header {
+    background-color: #2958AF;
+}
+
+
+#conversion header p#form-description {
+    font-size: 14px;
+    color: inherit;
+    margin-bottom: 0px
+}
+
+#conversion .ebook-form {
+    padding: 30px;
+
+    background-color: rgba(250, 250, 250, 0.8);
+}
+
+
+#conversion .ebook-form em {
+    opacity: 0.40;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+#conversion .ebook-form #receber {
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    margin: 15px 0;
+}
+
+#social-proof {
+    padding: 25px;
+    float: none;
+}
+
+#social-proof h2.title {
+    text-align: center;
+    color: #696969;
+    font-family: "Open Sans Light";
+    margin-bottom: 25px;
+}
+
+#social-proof img.quote-company:hover {
+    filter: none;
+    -webkit-filter: none;
+    -webkit-transition: all 300ms ease;
+    opacity: 1;
+}
+
+#social-proof img.quote-company {
+
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    opacity: 0.5;
+
+}
+

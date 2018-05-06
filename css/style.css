@@ -1,0 +1,207 @@
+html {
+    font-size: 18px;
+    font-family: "Open Sans", myriad-pro, "Myriad Pro", sans-serif;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+header #logo {
+    height: 56px;
+    background-color: #FDFDFD;
+    width: 100%;
+}
+
+header #logo img {
+    height: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.title {
+    font-size: 1.05em;
+    font-family: "Myriad Pro";
+    width: 95%;
+}
+
+#content h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3B5998;
+    font-size: 14px;
+    padding: 15px;
+     background-color: rgba(250, 250, 250, 0.25);
+}
+
+
+.btn {
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    width: 220px;
+    min-height: 60px;
+    border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+    display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    color: inherit;
+}
+.btn:hover, .btn:visited{
+        color: inherit;
+}
+/* Pseudo elements for icons */
+.btn:before,
+
+
+.icon-envelope:before {
+	content: "\e000";
+}
+
+.bh-icon-smiley:before {
+	content: "\e001";
+}
+
+.bh-icon-sad:before {
+	content: "\e002";
+}
+
+/* Button 1 */
+.btn-1 {
+	border: 3px solid #fff;
+	color: #fff;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+	background: #fff;
+    color: #DA4C5C;
+}
+
+/* Button 2 */
+.btn-2 {
+    background: #DA4C5C;
+	color: #fff;
+	box-shadow: 0 6px #BC424F;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.btn-2a:hover {
+	box-shadow: 0 4px #BC424F;
+	top: 2px;
+}
+
+.btn-2a:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}
+
+/* Button 3 */
+.btn-3 {
+	background: #2958AF;
+	color: #fff;
+    box-shadow: 0 6px #234B95;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em; 
+    border-radius: 7px;
+}
+
+.btn-3a:hover {
+    box-shadow: 0 4px #2958AF;
+	
+	top: 2px;
+    color: #fff;
+}
+
+.btn-3a:active {
+	background: #ab3c3c;
+	top: 6px;
+    color: #fff;
+}
+.btn-3a:visited{color: #fff;} 
+
+.btn-3a:before {
+	position: absolute;
+    visibility: hidden;
+}
+
+
+/* Button 7 */
+.btn-7 {
+	background: #3FC380;
+	color: #fff;
+	border-radius: 7px;
+	box-shadow: 0 5px #119e4d;
+    padding: 15px;
+}
+
+/* Button 7h */
+
+.btn-7h span {
+	display: inline-block;
+	width: 100%;
+}
+
+.btn-7h:hover {
+	box-shadow: 0 4px #3FC380;
+	top: 2px;
+    color:#fff;
+}
+
+.btn-7h:active {
+	background:#2F905F;
+	top: 6px;
+    box-shadow: 0 0;
+}
+
+.btn-7h:before {
+	position: absolute;
+	left: 0;
+	width: 40%;
+	font-size: 160%;
+	line-height: 0.8;
+	color: #0a833d;
+    visibility: hidden;
+}

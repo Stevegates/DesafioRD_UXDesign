@@ -1,0 +1,261 @@
+/* Small only */
+
+@media screen and (max-width: 39.9375em) {
+   #social-proof {
+    padding: 50px 10px 50px 0px;
+    float: none;
+}
+ #signup {
+    color: #fff;
+  padding: 50px 25px 50px 25px;
+    background-color: #D83551;
+}
+#signup .small-12, #signup .medium-8{
+        padding: 0;
+    }
+    #content h2 {
+    font-size: 1.75em;
+    }
+}
+
+
+/* Medium and up */
+
+@media screen and (min-width: 40em) {
+#social-proof {
+    padding: 60px;
+    float: none;
+}
+#signup {
+    color: #fff;
+    padding: 75px;
+    background-color: #D83551;
+}
+    #content h2 {
+    font-size: 2em;
+    }
+}
+
+
+/* Medium only */
+
+@media screen and (min-width: 40em) and (max-width: 63.9em) {
+#signup .medium-8{
+        margin-left: -18px;
+    }
+}
+}
+
+/* Large and up */
+
+@media screen and (min-width: 64em) {
+   
+}
+
+@media screen and (min-width: 97em) {
+    
+
+}
+
+#main-banner {
+    background: linear-gradient(rgba(41, 61, 105, 0.85), 
+      rgba(41, 61, 105, 0.92)
+    ),
+    /* bottom, image */
+    url('../images/thank-you.png');
+    background-size: contain;
+    min-height: 432px;
+    
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+
+}
+
+#headlines {
+
+    color: #fff;
+    text-align: center;
+    width: 100%;
+   
+}
+
+#headlines h1#title {
+    font-family: "Myriad Pro";
+    font-size: 3em;
+    line-height: 1.1em;
+    margin-bottom: 50px;
+  }
+
+#headlines h3#lead {
+    font-family: "Open Sans";
+    font-size: 1.25em;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#continuity{
+    font-family: "Open Sans Light";
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#social{
+    min-height: 90px;
+    padding: 25px;
+
+}
+
+#content {
+    background-color: #fafbfc;
+    width: 100%;
+    padding: 50px;
+    padding-top: 50px;
+}
+
+#content h2 {
+    font-family: "Myriad Pro";
+    text-align: center;
+    color:#3B5998;
+        margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+#content p {
+    font-size: 16px;
+    color: #424242;
+}
+
+#content #materiais{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.card {
+  background-color: #ffffff;
+  padding-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+margin: 25px;
+    width: 250px;
+    height: 340px;
+    margin: auto;
+}
+
+.card img{
+    margin-bottom: 15px;
+    max-height: 190px; 
+}
+
+.card h4{
+    margin-top: 15px;
+    font-family: "Open Sans Light";
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+span.material-type{
+    margin-bottom: 10px;
+}
+
+
+#social-proof h2.title {
+    text-align: center;
+    color: #696969;
+    font-family: "Open Sans Light";
+    margin-bottom: 25px;
+}
+
+
+#social-proof img.quote-company {
+width: 200px;
+    margin-bottom: 40px;
+    
+}
+
+/*    Testimonials    */
+
+.centered-text {
+  text-align: center;
+}
+
+.quote-marks {
+  font-size: 100px;
+  font-family: Garamond;
+  color: #777;
+}
+
+.move-right {
+  position: relative;
+  text-align: right;
+}
+
+.quote {
+  border-radius: 5px;
+}
+
+.quote p {
+  font-weight: 300;
+margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 40em) {
+  .quote p {
+    padding-left: 20px;
+  }
+}
+
+.client {
+  margin-left: 25px;
+ 
+}
+.client .photo {
+ 
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 15px;
+ background:url('../images/client.jpg');
+    background-size:contain;
+}
+.client p {
+  position: relative;
+  top: 5px;
+}
+.client p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.client p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
+
+
+#signup h2 {
+    font-family: "Myriad Pro";
+    font-size: 2.5em;
+    line-height: 1.1em;
+    margin-bottom: 40px;
+  }
+
+#signup p{
+    font-family: "Open Sans Light";
+    width: 100%;
+margin-bottom: 50px;
+    color: #fff;
+}
+#signup input{
+    font-family: "Open Sans Light";
+    height: 60px;
+    width: 100%;
+
+}
